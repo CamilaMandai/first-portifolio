@@ -1,0 +1,75 @@
+/*
+1 -Defina fontes diferentes para o seu nome e para a descrição que você criou;
+2 -Defina uma cor base de background do seu Portfólio Web;
+3- Altere o estilo das tags que você usou para destacar algumas informações, como sua nacionalidade e a cidade/estado onde mora;
+4- Coloque tamanhos diferentes para os elementos da lista de habilidades que você criou. Lembre-se de usar classes para cada um dos elementos;
+*/
+
+body{
+    width:50%;
+    margin:auto;
+   /* background-color: rgb(130, 138, 149);*/
+    background-color: #0C1618;
+    color:white;
+}
+nav{
+    position:absolute;
+    left:-10px;
+    top:30px;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.about{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+section{
+    font-family: "Roboto", sans-serif;
+    line-height: 2rem;
+}
+
+.prof-item{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+#curiosidades{
+    color:#D1AC00;
+}
+
+#habilidades{
+    color: purple;
+}
+
+#habilidadesplus{
+    color:#F09156;
+}
+
+#recomendacoes{
+    color:#004643;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+li{
+    list-style-type: none;
+}
+
+nav li a{
+    line-height: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    color:#D5C9DF;
+    font-weight: 700;
+    font-size: 20px;
+}
+a:hover{
+    color:#004643;
+}
+
+#foto-perfil{
+    border-radius: 50%;;
+}

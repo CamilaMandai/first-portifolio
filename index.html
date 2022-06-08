@@ -5,40 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Nunito+Sans:wght@200;300;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;600;700&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Camila Mandai</title>
     
 </head>
 <body>
        <h1>Olá! Eu sou a Camila Mandai.</h1>
     <img id="foto-perfil" src="foto.jpg" alt="Foto de perfil" width="100px">
-    <ul>
-        <li><a href="#curiosidades">Curiosidades</a></li>
-        <li><a href="#habilidades">Algumas habilidades</a></li>
-        <li><a href="#habilidades+">Habilidade excepcionais!</a></li>
-        <li><a href="#recomendacoes">Recomendações</a></li>
-    </ul>
-    <p>Sou bióloga/ecóloga de formação e desenvolvedora por teimosia. Tenho uma trajetória profissional bem variada, porém algo que me acompanhou durante todo o percurso foi a programação. Comecei utilizando as linguagens R, para simulações e análises estatísticas, e a linguagem C++ para o desenvolvimento de programas de simulação de ecossistemas virtuais. No entanto acabei sendo atraída por projetos mais aplicados no intuito de ajudar pessoas e seus problemas do dia-a-dia, algo que me fizesse colocar em prática várias habilidades ao mesmo tempo. E isso eu  encontrei no desenvolvimento web. Assim tenho me dedicado ao aprofundamento e aplicação das linguagens e frameworks da área de desenvolvimento web (HTML, CSS, Javascript, nodeJS, Express, EJS, banco de dados não relacionais Mongo) bem como nas metodologias de desenvolvimento mais atuais. Apesar de buscar uma formação mais full-stack, tenho mais facilidade no back-end.
+    <nav>
+        <ul>
+            <li><a href="#curiosidades">Curiosidades</a></li>
+            <li><a href="#habilidades">Algumas habilidades</a></li>
+            <li><a href="#habilidadesplus">Habilidade excepcionais!</a></li>
+            <li><a href="#recomendacoes">Recomendações</a></li>
+        </ul>
+    </nav>
+    <div class="about">
+    <p>Sou bióloga/ecóloga de formação e desenvolvedora por teimosia. Tenho uma trajetória profissional bem variada, porém algo que me acompanhou durante todo o percurso foi a programação. </p>
+    <p>Comecei utilizando as linguagens R, para simulações e análises estatísticas, e a linguagem C++ para o desenvolvimento de programas de simulação de ecossistemas virtuais. No entanto acabei sendo atraída por projetos mais aplicados no intuito de ajudar pessoas e seus problemas do dia-a-dia, algo que me fizesse colocar em prática várias habilidades ao mesmo tempo. E isso eu  encontrei no desenvolvimento web. </p>
+    <p>Assim tenho me dedicado ao aprofundamento e aplicação das linguagens e frameworks da área de desenvolvimento web (HTML, CSS, Javascript, nodeJS, Express, EJS, banco de dados não relacionais Mongo) bem como nas metodologias de desenvolvimento mais atuais. Apesar de buscar uma formação mais full-stack, tenho mais facilidade no back-end.
     </p>
-    <h2 id="curiosidades">Curiosidades</h2>
+</div>
+<section>
+        <h2 class="prof-item" id="curiosidades">Curiosidades</h2>
         <p>Tenho como uma grande paixão e hobby (por enquanto) plantar, em especial plantar comida! 
             Adoro mexer na horta, na terra e literalmente colher os frutos da minha dedicação. 
             Acho que passar períodos diários ao ar livre e em contato com a natureza (como nessa minha <a href="#foto-perfil">foto de 
             perfil</a>) é a única solução universal
              para nossa saúde física e mental.
         </p>
-    <h2 id="habilidades">Algumas habilidades</h2>
+    <h2 class="prof-item" id="habilidades">Algumas habilidades</h2>
     <ul>
         <li><strong>Boa ouvinte</strong></li>
         <li>Honesta e sincera</li>
         <li>Inquieta</li>
     </ul>
-    <h2 id="habilidades+">Habilidades que me orgulham!</h2>
+    <h2 class="prof-item" id="habilidadesplus">Habilidades que me orgulham!</h2>
     <ul>
         <li>Cozinhar em fogão à lenha e fazer pão em fogueira</li>
         <li>Cozinha vegana</li>
         <li>Modelagem de pequenos animais</li>
     </ul>
-    <h2 id="recomendacoes">Alguns sites e blogs que eu recomendo</h2>
+    <h2 class="prof-item" id="recomendacoes">Alguns sites e blogs que eu recomendo</h2>
     <ul>
         <li>
             <a href="https://cs50.harvard.edu/">
@@ -56,6 +68,8 @@
             </a>
         </li>
     </ul>
+</section>
+
 <br>
 <p><em>Brinque para viver, viva para brincar</em> <br> <strong>Eduardo Tangara</strong></p>
 </body>
