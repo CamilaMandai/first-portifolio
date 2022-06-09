@@ -11,18 +11,21 @@ body{
    /* background-color: rgb(130, 138, 149);*/
     background-color: #0C1618;
     color:white;
+    padding-top:40px;
 }
 nav{
     position:absolute;
     left:-10px;
-    top:30px;
+    top:100px;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
 }
 .about{
     font-family: "Poppins", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-weight: 400;
+    line-height: 2em;
 }
 
 section{
@@ -39,7 +42,7 @@ section{
 }
 
 #habilidades{
-    color: purple;
+    color: rgb(141, 8, 141);
 }
 
 #habilidadesplus{
@@ -62,14 +65,55 @@ li{
 nav li a{
     line-height: 3rem;
     font-family: 'Courier New', Courier, monospace;
-    color:#D5C9DF;
+/*    color:#D5C9DF;*/
+    color:#F09156;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 15px;
+    background-color: #004643;
+    padding:10px;
+    width:100%;
+    transition: 0.5s;
 }
-a:hover{
-    color:#004643;
+nav li a:hover{
+    /*color:#004643;*/
+    /*background-color:#D1AC00;*/
+    background-color: rgb(56, 0, 56);
+    color:#D1AC00;
 }
+
+
 
 #foto-perfil{
     border-radius: 50%;;
+}
+
+article{
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+article li{
+    margin-left:-2.5rem;
+}
+
+article a{
+    text-decoration: underline;
+}
+
+article a:hover{
+    color:rgb(162, 54, 212);
+}
+
+footer{
+    padding-top: 30px;
+    text-align: center;
+}
+
+#quote{
+    font-family: "homemade apple", cursive;
+}
+
+#eduardo{
+    text-align: right;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
